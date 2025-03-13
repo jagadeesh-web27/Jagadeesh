@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-us {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    margin-top: 0px;
+  }
+  
+  .contact-us h1 {
+    color: #1e3a8a;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-20px);
+  }
+  
+  .contact-item i {
+    font-size: 40px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+  }
+  
+  .contact-item h3 {
+    font-size: 20px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item a {
+    color: #1e3a8a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .form-popup form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-popup label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+  }
+  
+  .form-popup input,
+  .form-popup textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-popup button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-popup button:hover {
+    background-color: #0056b3;
+  }
