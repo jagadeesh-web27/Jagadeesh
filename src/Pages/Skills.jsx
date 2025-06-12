@@ -36,7 +36,7 @@ function Skills() {
           <div key={skill.id} className="skill-item zigzag">
             <div className="skill-icon">{skill.icon}</div>
             <div className="skill-info">
-              <p className="skill-level">{skill.level}</p>
+              <p className="skill-level">{skill.name} {skill.level}</p>
             </div>
           </div>
         ))}

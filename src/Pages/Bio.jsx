@@ -13,7 +13,7 @@ const educationData = [
   {
     year: "2018 - 2020",
     degree: "Intermediate Education(MPC)",
-    institution: "SSBN Junior College, Anantapur",
+    institution: "SSBN Junior College",
     score:"85%",
     icon: "📘",
   },
