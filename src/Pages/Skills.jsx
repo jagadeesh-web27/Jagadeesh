@@ -4,12 +4,12 @@ import { FaJava, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTypescript, SiMongodb } from "react-icons/si";
 
 const skillsData = [
-  { id: 1, name: "Java", icon: <FaJava color="#007396" />, level: "Expert" },
-  { id: 2, name: "JavaScript", icon: <FaJs color="#F7DF1E" />, level: "Expert" },
-  { id: 3, name: "React JS", icon: <FaReact color="#61DAFB" />, level: "Advanced" },
-  { id: 4, name: "TypeScript", icon: <SiTypescript color="#3178C6" />, level: "Advanced" },
-  { id: 5, name: "MongoDB", icon: <SiMongodb color="#47A248" />, level: "Beginner" },
-  { id: 6, name: "Node JS", icon: <FaNodeJs color="#339933" />, level: "Advanced" },
+  { id: 1, name: "Java", icon: <FaJava color="#007396" />, level: "Java (Expert)" },
+  { id: 2, name: "JavaScript", icon: <FaJs color="#F7DF1E" />, level: "JavaScript (Expert)" },
+  { id: 3, name: "React JS", icon: <FaReact color="#61DAFB" />, level: "React JS (Advanced)" },
+  { id: 4, name: "TypeScript", icon: <SiTypescript color="#3178C6" />, level: "TypeScript (Advanced)" },
+  { id: 5, name: "MongoDB", icon: <SiMongodb color="#47A248" />, level: "MongoDB (Beginner)" },
+  { id: 6, name: "Node JS", icon: <FaNodeJs color="#339933" />, level: "Node JS (Advanced)" },
 ];
 
 function Skills() {
